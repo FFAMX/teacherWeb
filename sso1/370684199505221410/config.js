@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "李仁兴",
-    "性别": "女",
+    "性别": "男",
     "出生年月": "1995年05月22日",
     "民族": "汉族",
     "身份证号码": "370684199505221410",
@@ -20,7 +20,7 @@ window.SSO1_CONFIG = {
   },
   "certificate": {
     "holder_name": "李仁兴",
-    "gender": "女",
+    "gender": "男",
     "birth_date": "1995年05月22日",
     "ethnicity": "汉族",
     "id_number": "370684199505221410",
