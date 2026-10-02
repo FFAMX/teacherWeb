@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "杨毅建",
-    "性别": "女",
+    "性别": "男",
     "出生年月": "1989年06月02日",
     "民族": "汉族",
     "身份证号码": "440923198906021230",
@@ -20,7 +20,7 @@ window.SSO1_CONFIG = {
   },
   "certificate": {
     "holder_name": "杨毅建",
-    "gender": "女",
+    "gender": "男",
     "birth_date": "1989年06月02日",
     "ethnicity": "汉族",
     "id_number": "440923198906021230",
