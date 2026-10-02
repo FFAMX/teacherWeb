@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "莫文超",
-    "性别": "女",
+    "性别": "男",
     "出生年月": "1994年11月12日",
     "民族": "壮族",
     "身份证号码": "450322199411123013",
@@ -20,7 +20,7 @@ window.SSO1_CONFIG = {
   },
   "certificate": {
     "holder_name": "莫文超",
-    "gender": "女",
+    "gender": "男",
     "birth_date": "1994年11月12日",
     "ethnicity": "壮族",
     "id_number": "450322199411123013",
