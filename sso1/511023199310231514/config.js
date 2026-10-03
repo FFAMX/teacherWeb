@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "杨波",
-    "性别": "女",
+    "性别": "男",
     "出生年月": "1993年10月23日",
     "民族": "汉族",
     "身份证号码": "511023199310231514",
@@ -20,7 +20,7 @@ window.SSO1_CONFIG = {
   },
   "certificate": {
     "holder_name": "杨波",
-    "gender": "女",
+    "gender": "男",
     "birth_date": "1993年10月23日",
     "ethnicity": "汉族",
     "id_number": "511023199310231514",
