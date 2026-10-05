@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "雷国珍",
-    "性别": "男",
+    "性别": "女",
     "出生年月": "1983年02月25日",
     "民族": "汉族",
     "身份证号码": "441284198302250820",
@@ -16,11 +16,11 @@ window.SSO1_CONFIG = {
     "认定机构": "四会市教育局",
     "签发日期": "2012-09-18",
     "查询日期": "2026年07月27日",
-    "照片": "https://mxa.us.ci/upload/d0fcd522-36f8-4856-afc4-120025c7560b.png"
+    "照片": "https://mxa.us.ci/upload/2dd3eb00-471d-44f2-967d-508fcf2d7034.png"
   },
   "certificate": {
     "holder_name": "雷国珍",
-    "gender": "男",
+    "gender": "女",
     "birth_date": "1983年02月25日",
     "ethnicity": "汉族",
     "id_number": "441284198302250820",
@@ -30,7 +30,7 @@ window.SSO1_CONFIG = {
     "issuing_authority": "四会市教育局",
     "issue_date": "2012-09-18",
     "issue_date_text": "2012年09月18日",
-    "photo": "https://mxa.us.ci/upload/d0fcd522-36f8-4856-afc4-120025c7560b.png",
+    "photo": "https://mxa.us.ci/upload/2dd3eb00-471d-44f2-967d-508fcf2d7034.png",
     "detail_link": "./Certificate.html",
     "qrcode_image_url": ""
   }
