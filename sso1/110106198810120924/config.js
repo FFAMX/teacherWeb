@@ -16,7 +16,7 @@ window.SSO1_CONFIG = {
     "认定机构": "北京市教育局",
     "签发日期": "2015-05-18",
     "查询日期": "2026年10月20日",
-    "照片": "https://mxa.us.ci/upload/62fb2c91-b5a2-4394-89df-70266a31e840.png"
+    "照片": "https://mxa.us.ci/upload/75c43020-8fea-4c1d-9ba8-e1fc849c874e.png"
   },
   "certificate": {
     "holder_name": "张伟航",
@@ -30,7 +30,7 @@ window.SSO1_CONFIG = {
     "issuing_authority": "北京市教育局",
     "issue_date": "2015-05-18",
     "issue_date_text": "2015年05月18日",
-    "photo": "https://mxa.us.ci/upload/62fb2c91-b5a2-4394-89df-70266a31e840.png",
+    "photo": "https://mxa.us.ci/upload/75c43020-8fea-4c1d-9ba8-e1fc849c874e.png",
     "detail_link": "./Certificate.html",
     "qrcode_image_url": ""
   }
