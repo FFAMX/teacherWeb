@@ -2,10 +2,10 @@ window.SSO1_CONFIG = {
   "account": {
     "username": "32110219871210102X",
     "password": "123456",
-    "display_name": "邵蒙蒙"
+    "display_name": "邵濛濛"
   },
   "profile": {
-    "姓名": "邵蒙蒙",
+    "姓名": "邵濛濛",
     "性别": "女",
     "出生年月": "1987年12月10日",
     "民族": "汉族",
@@ -19,7 +19,7 @@ window.SSO1_CONFIG = {
     "照片": "https://mxa.us.ci/upload/95fab891-54d8-4063-854d-176428041c15.png"
   },
   "certificate": {
-    "holder_name": "邵蒙蒙",
+    "holder_name": "邵濛濛",
     "gender": "女",
     "birth_date": "1987年12月10日",
     "ethnicity": "汉族",
