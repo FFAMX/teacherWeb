@@ -16,7 +16,7 @@ window.SSO1_CONFIG = {
     "认定机构": "贵阳市教育局",
     "签发日期": "2010-07-19",
     "查询日期": "2026年10月24日",
-    "照片": "https://mxa.us.ci/upload/10c914ab-576b-43b3-87c8-3230c953461c.png"
+    "照片": "https://mxa.us.ci/upload/c0f3da8c-d375-48c3-ad8f-8533f9db9b58.png"
   },
   "certificate": {
     "holder_name": "雷俊芳",
@@ -30,7 +30,7 @@ window.SSO1_CONFIG = {
     "issuing_authority": "贵阳市教育局",
     "issue_date": "2010-07-19",
     "issue_date_text": "2010年07月19日",
-    "photo": "https://mxa.us.ci/upload/10c914ab-576b-43b3-87c8-3230c953461c.png",
+    "photo": "https://mxa.us.ci/upload/c0f3da8c-d375-48c3-ad8f-8533f9db9b58.png",
     "detail_link": "./Certificate.html",
     "qrcode_image_url": ""
   }
