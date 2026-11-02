@@ -16,7 +16,7 @@ window.SSO1_CONFIG = {
     "认定机构": "华东师范大学",
     "签发日期": "2018-01-22",
     "查询日期": "2026年04月24日",
-    "照片": "https://mxa.us.ci/upload/bc775e9e-0dd0-4007-961b-b586bd47fcc0.jpeg"
+    "照片": "https://mxa.us.ci/upload/f3054c1d-0f8e-4737-a2a8-d04879bb7eee.png"
   },
   "certificate": {
     "holder_name": "谢媛",
@@ -30,8 +30,8 @@ window.SSO1_CONFIG = {
     "issuing_authority": "华东师范大学",
     "issue_date": "2018-01-22",
     "issue_date_text": "2018年01月22日",
-    "photo": "https://mxa.us.ci/upload/bc775e9e-0dd0-4007-961b-b586bd47fcc0.jpeg",
+    "photo": "https://mxa.us.ci/upload/f3054c1d-0f8e-4737-a2a8-d04879bb7eee.png",
     "detail_link": "./Certificate.html",
-    "qrcode_image_url": ""
+    "qrcode_image_url": "https://imageupload.io/f/rW2JZxja.png"
   }
 };

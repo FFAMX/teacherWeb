@@ -956,7 +956,7 @@
                                     </div>
                                 </div>
                                 <div class="Query-Website fl clearfix" style="position: relative;">
-                                    <div id="qrcode" style="width:100px; height:100px;margin-top: -60px;" title="https://jszgedu.mxa.us.ci/sso1/440304198701252885/Certificate?t=1793621110600"><canvas width="100" height="100" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAACTklEQVR42u2cUW7DMAxDe/9LZwcYGoikbMvo81fRZo3zMskU5fTzMMrjAwJgAQtYwAIWsEAALGABC1jAAlb1uPL49rf/X78fUz9L5X11zsDaC8s7Rr3gb3DrmPI5A+sELO/C1At+/+bKedU5A+seWF5iTuaTzBlYt4WhJx1WLA7Amg2rDvR9ohUcqtS8UmcBSygd5ry+oDb8aVjJ0p4UQJVEbofVFD/rp2HV/729oK5gUs2fltAD1mJYqjGipnzVilG/LZEXwNoFy5OU9dJXNf/UT7eGIbAiUeql5ySpe2EVCgtgbYGVh4/aFvNu4YjaEFhRalelRm9ztAIrNLWBtQzWiunWS2tVACc2N7B2wfIM/67Guhryi2QEsDZaNN7pvZBRy/t6iQ6sc7ASE05NsZ6ITdoZwJoHK1/svSarJ2ttTMA6BCvHp77fYhPvTvDAipb8/OK97Urq2bcmeGCZRk1SsqjLQi5cDrfCgBWZM0miVYvhupV82KIBlhwI3iKgli/q4wWNogFYG80/9RG6vCnvbQZRRTWwTsBSk65XGCUbAJKmCbBmwFI3Tq4LWM/2Wb7XAVhthrK3OKgm34piHlgzYCUh1lXudIUksE7DSqybpKxJpG+jHAXWyNrQK5J7begD0gFYbS2jPOUnSTqRu8CaAaseArkNnd+kAw86AevZ+cM9XRadahY2bg8B1nhY3pajLktvUysMWEukgxeYatpObsYgnQUs07qtWz2JXTdoAy6wHn4ueISfBSxgMYAFLGABC1jAYgALWMC6Z/wBUtCIFehRoCsAAAAASUVORK5CYII="
+                                    <div id="qrcode" style="width:100px; height:100px;margin-top: -60px;" title="https://imageupload.io/f/rW2JZxja.png"><canvas width="100" height="100" style="display: none;"></canvas><img alt="Scan me!" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAIAAAD/gAIDAAAB0ElEQVR42u3aW3ICMQxEUfa/6WQFUFh9254Zrj+TkIwOhaKHX3+er89LArHEEkusn8F6ZefDL8T/xNK3wijEEusI1trn+f3jLr18JtKLQiyxLoK1lD5mr/om7Fk6C6MQS6yHYc0SXFidiCXWL2OF//vx3yyWWLfGCmvfsN1divau7Y5YYnXmWRf5yj2Gf2KJVdqF0BXDamx3WoWJJVZ5rIynmNk7lKOLJdZBrA3bzXFVjXQLlamDWGIFWLPHpSpvamsb5jWxxDqLhW9uZk9JZR9q1yuWWEewZiH1LjTMZtmb6iyxxCoXpWHYVJ0xS4tgCSKWWNuw8Fo8THl55Y3kR7HEOosV/gxVMeCD5kojLZZYBNZl1zNUMVHZSIslFopFjXp7c2Eqi60+mFhi7cfC7w3kg91B/LMdrVhiXQSr50iV6ZvvVYgl1hWw8DY1XM+EaruvSYolFrHd2TAyDtv4sHAnl6xiiYXedQA/9ghNCFG5+SeWWB2ssJXt1RCzbrmbs8QSq4wV3uMJIwkvIIKXkMQS60lY+B2mXj8vllgPw6JCoibFleGfWGJ1sPL1ZK+5ZWdnYol1NSy8LKbKi1NvjFhibcPyiCWWWGKJJZbn3fkHNVcY3C7rR2gAAAAASUVORK5CYII="
                                             style="display: block;"></div>
                                     <div style="position:absolute; left:150px; top:-44px; height:100px; line-height:100px; white-space:nowrap;">扫描二维码可直接查看当前证书信息。</div>
                                 </div>
@@ -1084,6 +1084,19 @@
         .Query-Website {
             margin-left: 30px;
             margin-top: 10px;
+        }
+
+        /*
+         * 窄屏（手机视口）：Bootstrap 的 clearfix 在 <768px 下失效，
+         * .Verification-results-info 的高度会塌成几像素，里面浮动的列表和二维码区
+         * 就会跑去抢照片旁边的空位 —— 表现为二维码跑到卡片顶部、压住标题和照片。
+         * 这里用 BFC（overflow:hidden）把浮动子元素包住，二维码自然回到列表下方。
+         *   实测（390×844）：改前二维码 y 87..137（卡片顶部），改后 300..350（列表下方、内框 357 之内）。
+         */
+        @media (max-width: 767px) {
+            .Verification-results-info {
+                overflow: hidden;
+            }
         }
     </style>
 
