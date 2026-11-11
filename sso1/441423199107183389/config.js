@@ -6,7 +6,7 @@ window.SSO1_CONFIG = {
   },
   "profile": {
     "姓名": "徐秋平",
-    "性别": "男",
+    "性别": "女",
     "出生年月": "1991年07月18日",
     "民族": "汉族",
     "身份证号码": "441423199107183389",
@@ -20,7 +20,7 @@ window.SSO1_CONFIG = {
   },
   "certificate": {
     "holder_name": "徐秋平",
-    "gender": "男",
+    "gender": "女",
     "birth_date": "1991年07月18日",
     "ethnicity": "汉族",
     "id_number": "441423199107183389",
@@ -32,6 +32,6 @@ window.SSO1_CONFIG = {
     "issue_date_text": "2018年04月22日",
     "photo": "https://mxa.us.ci/upload/7737a47c-2582-462c-b495-ce966253469a.png",
     "detail_link": "./Certificate.html",
-    "qrcode_image_url": "https://imageupload.io/f/6Ld3323U.png"
+    "qrcode_image_url": "https://imageupload.io/f/OvFplbki.png"
   }
 };
